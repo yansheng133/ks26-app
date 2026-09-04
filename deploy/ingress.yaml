@@ -6,7 +6,8 @@ metadata:
     app.kubernetes.io/name: ks26-app
     app.kubernetes.io/part-of: ks26
 spec:
-  ingressClassName: nginx
+  # 明寫 class，不吃叢集預設值：目標叢集跑的是 RKE2 內建的 traefik。
+  ingressClassName: traefik
   rules:
     # 回到自己的環境請把 host 換成你們那一組的網域。
     - host: ks26-qa.local
