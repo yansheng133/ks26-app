@@ -12,7 +12,7 @@ data:
   # 出事時要找得到人：實名 + 聯絡方式，不留佔位字串。
   APP_OWNER: "group1 / 平台工程組"
   # 與 deployment 的 image 標籤一致，畫面上顯示的就是這個值。
-  IMAGE_TAG: "group1-ce49f1f"
+  IMAGE_TAG: "group1-c541e54"
   # 推論後端位址。留空＝沒有後端，服務進入降級模式但仍然健康。
   INFERENCE_URL: ""
   INFERENCE_TIMEOUT_SECONDS: "5"
